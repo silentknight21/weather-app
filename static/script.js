@@ -30,7 +30,6 @@ var getWeather = function (){
 		url: 'http://api.openweathermap.org/data/2.5/weather',
 		data: {
 			'APPID': 'd025b248c28ef88dc60f2db52a06d998',
-			// 'q': $(this).val(); to do this we have make a variable down and then send to this function
 			'q': $("#city").val(),
 			'units' : 'metric'
 		},
